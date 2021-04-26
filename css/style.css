@@ -434,9 +434,12 @@ footer .copyright {
     section.faq .card .card-header h5 a {
         font-size: 16px;
     }
+    header.header .overlay .navbar {
+        margin-bottom: 0px;
+    }
 }
 
-@media(max-width: 900px) {
+@media(max-width: 991.98px) {
     header {
         overflow-x: hidden;
     }
@@ -450,7 +453,17 @@ footer .copyright {
         margin: 0 2rem;
     }
     section.video button {
-        top: 0;
+        top: 90;
+    }
+    header.header .overlay .navbar {
+        margin-bottom: 0px;
+    }
+    header.header .overlay .header-text p {
+
+        margin-bottom: 19px;
+    }
+    header.header .overlay .header-text {
+        margin-top: 2rem;
     }
 }
 
@@ -473,9 +486,6 @@ footer .copyright {
     section.contact .contact-us form button.submit {
         margin-top: 15px;
     }
-}
-
-@media(max-width: 767.98px) {
     header.header .overlay .product-imge img:first-of-type {
         width: 80%;
         margin-right: 46px;
@@ -496,6 +506,13 @@ footer .copyright {
     }
     footer .copyright {
         position: relative;
-        top: -13px;
+        top: 73%;
+    }
+    
+}
+@media(max-width: 575.98px) {
+    footer .copyright {
+        position: relative;
+        top: -31%;
     }
 }
